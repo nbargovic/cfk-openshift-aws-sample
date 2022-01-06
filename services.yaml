@@ -76,6 +76,10 @@ spec:
       url:  https://connect.confluent-ironbank.svc.cluster.local:8083
       tls:
         enabled: true
+    - name: replicator
+      url: https://replicator.confluent-ironbank.svc.cluster.local:8083
+      tls:
+        enabled: true
   podTemplate:
     podSecurityContext: { } # Disable the custom pod security context, to use the default
 ---
