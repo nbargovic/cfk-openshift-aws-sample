@@ -2,8 +2,8 @@
   "CN": "ksql",
   "hosts": [
     "ksql",
-    "ksqldb.confluent-ironbank.svc.cluster.local",
-    "*.ksqldb.confluent-ironbank.svc.cluster.local"
+    "ksqldb.confluent-laptop.svc.cluster.local",
+    "*.ksqldb.confluent-laptop.svc.cluster.local"
   ],
   "key": {
     "algo": "rsa",

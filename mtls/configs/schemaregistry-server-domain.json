@@ -2,8 +2,8 @@
   "CN": "sr",
   "hosts": [
     "sr",
-    "schemaregistry.confluent-ironbank.svc.cluster.local",
-    "*.schemaregistry.confluent-ironbank.svc.cluster.local"
+    "schemaregistry.confluent-laptop.svc.cluster.local",
+    "*.schemaregistry.confluent-laptop.svc.cluster.local"
 
   ],
   "key": {

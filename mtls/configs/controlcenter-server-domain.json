@@ -2,8 +2,8 @@
   "CN": "controlcenter",
   "hosts": [
     "controlcenter",
-    "controlcenter.confluent-ironbank.svc.cluster.local",
-    "*.controlcenter.confluent-ironbank.svc.cluster.local"
+    "controlcenter.confluent-laptop.svc.cluster.local",
+    "*.controlcenter.confluent-laptop.svc.cluster.local"
   ],
   "key": {
     "algo": "rsa",

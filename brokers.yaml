@@ -2,7 +2,7 @@ apiVersion: platform.confluent.io/v1beta1
 kind: Zookeeper
 metadata:
   name: zookeeper
-  namespace: confluent-ironbank
+  namespace: confluent-laptop
 spec:
   replicas: 3
   image:
@@ -26,7 +26,7 @@ apiVersion: platform.confluent.io/v1beta1
 kind: Kafka
 metadata:
   name: kafka
-  namespace: confluent-ironbank
+  namespace: confluent-laptop
 spec:
   replicas: 3
   image:
@@ -45,7 +45,7 @@ spec:
         enabled: true
   dependencies:
     zookeeper:
-      endpoint: zookeeper.confluent-ironbank.svc.cluster.local:2182
+      endpoint: zookeeper.confluent-laptop.svc.cluster.local:2182
       tls:
         enabled: true
   podTemplate:

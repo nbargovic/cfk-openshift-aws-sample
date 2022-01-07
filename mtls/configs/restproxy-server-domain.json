@@ -2,8 +2,8 @@
   "CN": "restproxy",
   "hosts": [
     "restproxy",
-    "restproxy.confluent-ironbank.svc.cluster.local",
-    "*.restproxy.confluent-ironbank.svc.cluster.local"
+    "restproxy.confluent-laptop.svc.cluster.local",
+    "*.restproxy.confluent-laptop.svc.cluster.local"
 
   ],
   "key": {

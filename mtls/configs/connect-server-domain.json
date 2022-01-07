@@ -2,8 +2,8 @@
   "CN": "connect",
   "hosts": [
     "connect",
-    "connect.confluent-ironbank.svc.cluster.local",
-    "*.connect.confluent-ironbank.svc.cluster.local"
+    "connect.confluent-laptop.svc.cluster.local",
+    "*.connect.confluent-laptop.svc.cluster.local"
   ],
   "key": {
     "algo": "rsa",

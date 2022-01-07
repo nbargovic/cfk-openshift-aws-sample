@@ -2,7 +2,7 @@ apiVersion: platform.confluent.io/v1beta1
 kind: Connect
 metadata:
   name: replicator
-  namespace: confluent-ironbank
+  namespace: confluent-laptop
 spec:
   replicas: 1
   image:
@@ -30,6 +30,6 @@ spec:
       - connector.class=io.confluent.connect.replicator.ReplicatorSourceConnector
   dependencies:
     kafka:
-      bootstrapEndpoint: kafka.confluent-ironbank.svc.cluster.local:9071
+      bootstrapEndpoint: kafka.confluent-laptop.svc.cluster.local:9071
       tls:
         enabled: true

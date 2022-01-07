@@ -2,8 +2,8 @@
   "CN": "kafka",
   "hosts": [
     "kafka",
-    "kafka.confluent-ironbank.svc.cluster.local",
-    "*.kafka.confluent-ironbank.svc.cluster.local"
+    "kafka.confluent-laptop.svc.cluster.local",
+    "*.kafka.confluent-laptop.svc.cluster.local"
   ],
   "key": {
     "algo": "rsa",
