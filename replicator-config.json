@@ -1,0 +1,21 @@
+{
+  "name": "replicator-test",
+  "config": {
+    "connector.class":
+    "io.confluent.connect.replicator.ReplicatorSourceConnector",
+    "tasks.max": "1",
+    "topic.whitelist": "test-data",
+    "key.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+    "value.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+    "src.kafka.bootstrap.servers": "kafka.confluent-laptop.svc.cluster.local:9092",
+    "src.kafka.security.protocol": "PLAINTEXT",
+    "dest.kafka.bootstrap.servers": "kafka.confluent-ironbank.svc.cluster.local:9092",
+    "dest.kafka.security.protocol": "PLAINTEXT",
+    "src.consumer.group.id": "replicator",
+    "src.consumer.confluent.monitoring.interceptor.sasl.mechanism": "PLAIN",
+    "src.consumer.interceptor.classes": "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor",
+    "src.consumer.confluent.monitoring.interceptor.bootstrap.servers": "kafka.confluent-laptop.svc.cluster.local:9092",
+    "confluent.license": "",
+    "confluent.topic.replication.factor": "3"
+  }
+}
