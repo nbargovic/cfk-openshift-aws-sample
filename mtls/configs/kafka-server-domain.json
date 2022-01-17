@@ -3,7 +3,8 @@
   "hosts": [
     "kafka",
     "kafka.confluent-ironbank.svc.cluster.local",
-    "*.kafka.confluent-ironbank.svc.cluster.local"
+    "*.kafka.confluent-ironbank.svc.cluster.local",
+    "*.kafka-confluent-ironbank.apps.noble-nbargovic.ifn4.p1.openshiftapps.com"
   ],
   "key": {
     "algo": "rsa",
