@@ -58,6 +58,10 @@ spec:
       tls:
         enabled: true
     external:
+      externalAccess:
+        type: route
+        route:
+          domain: kafka-namepace.domain.com
       authentication:
         type: mtls
         principalMappingRules:
